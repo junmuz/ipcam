@@ -1,0 +1,17 @@
+******************************************************************************************************
+
+	Developing RTSP protocol for the IP Camera	
+	Author:		Muhammad Junaid Muzammil
+	Created:	April 10th , 2012
+
+******************************************************************************************************
+
+	1)	The main.c program contains the source code for the session establishment between the client and the source IP camera. This program connects the client with the source over port 554. The IP address of the server is to be provided as an argument.
+
+	Compile the program by executing the following command
+
+	gcc main.c stream-acq.c -o main
+
+	Execute the program by executing the following command
+
+	./main CAMERA_IP_ADDRESS
